@@ -2,7 +2,6 @@
 
 **Course:** Data Structures and Algorithms – 3  
 **Team:** 18
-
 **Supervisor:** Dr. S. Vinay Kumar, Associate Professor, Department of Computer Science and Engineering  
 **Current Phase:** Pattern/String Matching Implementation – Review 2
 
