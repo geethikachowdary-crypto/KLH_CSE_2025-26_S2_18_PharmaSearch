@@ -1,0 +1,11 @@
+The Pharma Search System allows users to search for medicine records efficiently. A user can search for a medicine and retrieve information associated with the matching record.
+
+The system provides medicine names as part of the searchable pharmaceutical information. It also supports retrieval of manufacturer information for medicines.
+
+Dosage information can be retrieved when a medicine record is found. The system also provides the uses associated with a medicine, helping users retrieve relevant pharmaceutical information.
+
+Available substitutes are another type of information that can be retrieved from the medicine records.
+
+The system supports pattern searching and matching techniques to improve search speed and accuracy. It can support partial or similar medicine-name identification through the string-searching and fuzzy-matching approaches described in the project.
+
+The project is designed to remain efficient as the number of medicine records increases by selecting suitable algorithms and data structures for the search requirements.

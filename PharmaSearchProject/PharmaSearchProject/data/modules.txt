@@ -1,0 +1,11 @@
+The Pharma Search System can be understood through the main functional areas described in the project.
+
+The medicine information retrieval area handles the search and retrieval of pharmaceutical information. The searchable information includes medicine names, manufacturers, dosage, uses, and available substitutes.
+
+The pattern searching area applies string-searching techniques to locate relevant medicine information. KMP, Rabin-Karp, and other suitable string-searching approaches are identified by the project for this purpose.
+
+The fuzzy matching area supports the identification of partial or similar medicine names. Edit Distance is identified as a technique that can be used for fuzzy matching.
+
+The data structure and algorithm selection area focuses on choosing suitable approaches according to the search requirements and the size of the pharmaceutical dataset.
+
+The Java text-search demonstration represents these ideas with project text files and a KMP-based sentence search. The demonstration searches pharmaceutical project information rather than unrelated subjects.

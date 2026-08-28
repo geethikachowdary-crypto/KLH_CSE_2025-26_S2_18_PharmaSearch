@@ -1,0 +1,7 @@
+Pharma Search System is designed to improve the retrieval and management of pharmaceutical information. The project focuses on searching medicine records efficiently as the number of records increases.
+
+The system allows users to search for medicines and retrieve important pharmaceutical information. The information available for a medicine includes its medicine name, manufacturer, dosage, uses, and available substitutes.
+
+The project applies advanced Data Structures and Algorithms to improve search speed and accuracy. String-searching and matching techniques are used to support efficient pattern searching and matching of medicine information.
+
+The Pharma Search System demonstrates how algorithms can be applied to a real-world pharmaceutical information retrieval problem. The main goal is to reduce search time while improving the accuracy and usability of medicine information retrieval.

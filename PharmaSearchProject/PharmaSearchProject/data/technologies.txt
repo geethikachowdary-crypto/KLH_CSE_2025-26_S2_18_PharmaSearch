@@ -1,0 +1,9 @@
+The Pharma Search System is based on Data Structures and Algorithms for efficient pharmaceutical information retrieval.
+
+Advanced string-searching and matching techniques are central to the project. The project identifies Knuth-Morris-Pratt (KMP), Rabin-Karp, and Edit Distance as algorithms that can be used for pattern searching and fuzzy matching.
+
+KMP can be used for efficient pattern searching within the pharmaceutical information handled by the system. In the Java text-search demonstration, KMP is implemented manually and is used as the actual keyword-matching algorithm.
+
+Rabin-Karp is identified in the project as another possible string-searching technique for pattern searching. Edit Distance is identified for fuzzy matching and can help the system identify similar medicine names.
+
+The project also uses suitable data structures and algorithms according to the search requirements and the size of the medicine dataset. The Java implementation in this demonstration provides a concrete text-search version of the Pharma Search System using KMP.

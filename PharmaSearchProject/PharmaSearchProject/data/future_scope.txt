@@ -1,0 +1,5 @@
+The supplied Pharma Search project abstract does not specify a separate future-scope section. Therefore, this file does not introduce new features or technologies that are not supported by the project abstract.
+
+The project already identifies KMP, Rabin-Karp, and Edit Distance as techniques that can be used for pattern searching and fuzzy matching. It also states that suitable data structures and algorithms should be selected according to search requirements and dataset size.
+
+Any future development would need to remain consistent with the project's stated goal of improving pharmaceutical information retrieval, search speed, and search accuracy.

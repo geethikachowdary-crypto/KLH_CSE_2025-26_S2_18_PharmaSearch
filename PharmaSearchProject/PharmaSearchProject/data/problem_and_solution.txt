@@ -1,0 +1,7 @@
+The Pharma Search System addresses the problem of searching pharmaceutical information when the number of medicine records becomes large. Traditional search methods can become slower and less efficient as the medicine dataset increases.
+
+The proposed solution is a search system that allows users to quickly search for medicines and retrieve relevant pharmaceutical information. Instead of relying only on traditional search methods, the system applies advanced string-searching and matching techniques.
+
+The solution focuses on improving both search speed and search accuracy. Pattern searching techniques can identify relevant medicine names, while fuzzy matching techniques can help identify partial or similar medicine names.
+
+The project therefore provides an efficient approach to pharmaceutical information retrieval by selecting suitable data structures and algorithms according to search requirements and dataset size.

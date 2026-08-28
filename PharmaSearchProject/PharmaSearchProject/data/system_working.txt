@@ -1,0 +1,11 @@
+The Pharma Search System works by accepting a medicine-related search requirement from a user and searching the pharmaceutical records for relevant information.
+
+The system examines medicine information using string-searching and matching techniques. Pattern searching can be used to locate a requested medicine name or a matching pattern within the available pharmaceutical information.
+
+For cases where an exact medicine name may not be available, fuzzy matching techniques can help identify partial or similar medicine names. This improves the ability of the system to retrieve useful pharmaceutical information.
+
+When a relevant medicine record is identified, the system can retrieve information such as the medicine name, manufacturer, dosage, uses, and available substitutes.
+
+The system selects suitable data structures and algorithms according to the search requirements and dataset size. The use of efficient algorithms is intended to reduce search time and improve search accuracy.
+
+In the Java text-search demonstration of this project, pharmaceutical information is stored in project text files. The Java program reads these files, extracts complete sentences, and applies a manually implemented KMP string-matching algorithm to find sentences containing the user's keyword. This demonstration keeps the search algorithm focused on the Pharma Search System.
