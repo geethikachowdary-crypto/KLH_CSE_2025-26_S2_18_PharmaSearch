@@ -1,0 +1,17 @@
+PHARMACY INFORMATION
+
+A pharmacy is a healthcare-related location or service where medicines may be supplied, stored, prepared, and explained by qualified professionals. Pharmacies can support patients by providing information about medicine usage, possible interactions, storage, dosage instructions, and safe handling. In the Pharma Search – Intelligent Medicine Search System, pharmacy information can be stored in a text file and searched through approximate matching.
+
+Pharmacy-related records may include pharmacy name, location description, service type, working hours, medicine availability, pharmacist support, and emergency contact information. In a basic academic project, the file can contain general pharmacy concepts rather than real-time business information. Real pharmacy availability would require a continuously updated external database or application programming interface.
+
+Common pharmacy terms include pharmacist, prescription, generic medicine, branded medicine, refill, counselling, inventory, stock, expiry date, storage, and patient information. These terms are useful for testing the search system because users may enter incomplete or misspelled words.
+
+A pharmacist can help explain how a medicine should be taken according to the prescription or product instructions. Pharmacists may also identify possible duplicate medicines, ask about allergies, explain storage requirements, and advise the user to consult a doctor when a problem requires medical evaluation. The role of the pharmacist varies according to local laws and professional responsibilities.
+
+Pharmacy inventory management includes recording medicine names, batch numbers, expiry dates, available quantities, storage conditions, and supplier details. A real inventory system requires strong validation, access control, and regular updates. The current project is a file-based search demonstration, so it should not be treated as a complete inventory or billing system.
+
+The Levenshtein Edit Distance algorithm can improve pharmacy information retrieval. If a user types “pharmacist” incorrectly, the system compares the input with words extracted from the text files. It calculates the minimum number of insertions, deletions, and substitutions needed to match a stored word. The program can then display a possible match, its distance, and the file where it was found.
+
+The application should avoid exposing private patient information. If real pharmacy data is added in the future, personal details must be protected through authentication, authorization, secure storage, and appropriate privacy practices. A text file containing public educational information is safer for a classroom demonstration.
+
+This file connects the project with real healthcare workflows while keeping the implementation simple. It also provides additional vocabulary for evaluating the search threshold, duplicate removal, sorting by distance, and exact-match detection. The content should be expanded or reviewed before using the system in a real pharmacy environment.

@@ -1,0 +1,17 @@
+PRESCRIPTION MEDICINES INFORMATION
+
+Prescription medicines are medicines that may require authorization from a qualified healthcare professional before they are supplied or used. They are generally used when medical supervision is important because of their strength, possible side effects, interaction risks, or the condition being treated. The Pharma Search – Intelligent Medicine Search System can store basic educational information about prescription medicines in a searchable text file.
+
+Prescription medicine records may contain the medicine name, general purpose, dosage form, prescription requirement, important warnings, and related keywords. Examples of dosage forms include tablets, capsules, injections, inhalers, creams, drops, and liquid preparations. The same active ingredient may be available in different strengths or forms, so the complete product information is important.
+
+A prescription medicine should be used only according to the instructions provided by an authorized healthcare professional. Users should not share prescription medicines with other people, change the dose independently, or stop long-term treatment without professional advice. A search application must not generate prescriptions or provide individualized treatment instructions.
+
+Important terms connected with prescription medicines include active ingredient, strength, dosage form, contraindication, interaction, monitoring, refill, and medical supervision. These terms can be stored in the text file so that the search program can find them even if the user enters a spelling error.
+
+For example, a user might search for “contraindication” but type “contraindiction.” The Levenshtein Edit Distance algorithm compares the typed word with words in the file and calculates the number of edits needed to obtain the stored word. The system can then show the closest match with the file name and distance value.
+
+The project can also include a distinction between prescription medicines and non-prescription medicines. This distinction should be described carefully because legal requirements differ between countries, medicine categories, and specific products. The application should not assume that every medicine has the same supply rules.
+
+Safety information should include warnings about following the product label, checking allergies, informing healthcare professionals about other medicines, and seeking help for severe symptoms. The text file is intended for educational search and not for replacing a pharmacist, doctor, or official medicine database.
+
+Adding this category makes the project more realistic because users often search for medicine names together with terms such as prescription, dosage, warning, and supervision. It also provides longer and more technical words for testing approximate matching. The data should be verified from reliable sources and updated when official instructions change.

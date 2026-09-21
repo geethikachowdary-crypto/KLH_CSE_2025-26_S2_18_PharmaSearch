@@ -1,0 +1,15 @@
+SIDE EFFECTS INFORMATION
+
+Side effects are unwanted or unexpected effects that may occur when a medicine is used. They can vary according to the medicine, dose, route of administration, age, health condition, and combination with other medicines. In the Pharma Search – Intelligent Medicine Search System, side-effect information can be stored in a text file so that users can search for medicine-related terms even when the search word contains spelling mistakes.
+
+Common side effects include nausea, vomiting, headache, dizziness, stomach discomfort, drowsiness, dry mouth, constipation, and mild skin irritation. However, the presence of a side effect does not mean that every person taking the medicine will experience it. Some side effects may be temporary, while others may require medical attention.
+
+Side effects can be classified into common, uncommon, serious, and emergency-related effects. Common effects are usually mild and may disappear as the body adjusts to the medicine. Uncommon effects occur less frequently. Serious effects may include severe allergic reactions, unusual bleeding, breathing difficulty, fainting, or serious skin reactions. Emergency symptoms require immediate medical help.
+
+The severity of a side effect is important when organizing medicine information. A file may contain the medicine name, possible side effects, seriousness level, and a short description. The information should be written in a structured but readable form. For example, an entry can contain the medicine name followed by common effects and warning signs.
+
+The search system can use Levenshtein Edit Distance to identify approximate matches in this file. If a user types “dizzines” instead of “dizziness,” the algorithm can calculate the number of character insertions, deletions, or substitutions required to reach the correct word. If the distance is within the selected threshold, the system can display dizziness as a possible match.
+
+The project should not diagnose a person or recommend stopping a medicine. It is designed for information retrieval and educational demonstration. Medical decisions must be made with the guidance of a qualified healthcare professional. Side-effect information should be reviewed and updated from reliable medical references before being used in a real application.
+
+Useful fields for this file include medicine name, common side effects, serious warning signs, affected body system, and search keywords. Repeated words should be acceptable because the Java search program can remove duplicate word-file pairs using a set. This file improves the project by adding a safety-focused information category and demonstrating approximate search across medical terminology.
