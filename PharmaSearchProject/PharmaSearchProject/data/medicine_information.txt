@@ -1,0 +1,96 @@
+
+MEDICINE INFORMATION
+
+Introduction to Medicines
+
+Medicines are important products used in healthcare for the
+prevention, diagnosis, management, and treatment of various
+diseases and medical conditions. They may contain active
+ingredients that produce a particular pharmacological effect.
+Medicines are available in different forms, including tablets,
+capsules, syrups, injections, creams, ointments, inhalers, and
+other formulations. Each form is designed for a particular
+method of administration and may have specific instructions.
+
+Medicine information generally includes the product name, active
+ingredient, therapeutic use, strength, dosage form, manufacturer,
+storage instructions, warnings, and expiry information. These
+details help users and healthcare professionals identify and
+understand a product. The information on an original medicine
+package and its approved product documentation should be used
+when verifying medicine details.
+
+Active Ingredients
+
+An active ingredient is the substance responsible for the
+intended medicinal effect of a product. Some medicines contain
+only one active ingredient, while others contain multiple active
+ingredients. The name of a product and the name of its active
+ingredient may be different. Therefore, searching only by a
+brand name may not always provide complete information.
+
+Medicine names can sometimes be difficult to spell or remember.
+A user may enter an incomplete word, make a spelling mistake, or
+use a different letter arrangement. A search system can help
+identify possible textual matches, but the results should be
+verified using reliable medical sources.
+
+Types of Medicine Information
+
+Medicine records can include information about therapeutic
+categories such as pain relief, allergy management, infection
+treatment, digestive health, blood pressure management, and
+diabetes care. These categories describe broad areas of use.
+Medicines within the same category can have different active
+ingredients, strengths, warnings, and clinical purposes.
+
+Additional information may include the dosage form, route of
+administration, storage temperature, manufacturer, and
+prescription requirements. A product may need special storage
+conditions, and some formulations may have specific handling
+instructions. Users should follow the official product label and
+professional guidance.
+
+Pharma Search Project
+
+The Pharma Search project is a Java-based intelligent medicine
+search system that demonstrates file handling and approximate
+text matching. The application reads information from several
+text files stored in the same folder as the Java source files.
+These files contain medicine information, categories,
+manufacturers, dosage-related terminology, and substitute-related
+information.
+
+When a user enters a search word, the program reads the files
+and extracts individual words. It converts the search word and
+the extracted words to lowercase to support case-insensitive
+comparison. The program then calculates the Levenshtein Edit
+Distance between the entered word and each extracted word.
+
+Levenshtein Edit Distance
+
+Levenshtein Edit Distance measures the minimum number of
+insertions, deletions, and substitutions required to transform
+one word into another. For example, the word "technlogies" can
+be compared with "technologies" to identify a possible spelling
+correction. The algorithm uses Dynamic Programming and a
+two-dimensional array to calculate the distance efficiently.
+
+The search program applies a simple distance threshold to
+reduce unrelated results. It sorts the matching words and
+displays a small number of possible matches along with the
+filename where each word was found.
+
+Project Limitations
+
+The Pharma Search application is an educational demonstration
+of Java programming and text processing. It does not diagnose
+medical conditions, prescribe medicines, recommend dosages, or
+confirm the safety of a medicine for a particular person. It
+also does not establish that two similar words represent
+medically equivalent products.
+
+Users should verify medicine names, instructions, warnings,
+and other health-related information through reliable sources
+and qualified healthcare professionals. The project focuses on
+search functionality, file handling, and approximate matching.

@@ -1,0 +1,110 @@
+
+DOSAGE INFORMATION
+
+Introduction to Dosage Information
+
+Dosage information describes the amount, frequency, method,
+and duration of medicine use according to the relevant product
+instructions or a qualified healthcare professional's guidance.
+It is an important part of medicine information because different
+products may have different strengths, formulations, and
+administration requirements.
+
+Dosage information should always be interpreted in the context
+of the specific medicine, its approved use, and the individual
+patient. A general dosage statement in a text file is not
+sufficient to determine a safe or appropriate dose for a person.
+
+Strength and Dose
+
+Strength and dose are related but different concepts. Strength
+describes the quantity of an active ingredient in a particular
+unit or volume of a product. Dose refers to the amount used or
+administered according to the relevant instructions.
+
+For example, a product may be described by the amount of active
+ingredient in one tablet or a specified volume of liquid.
+The actual dose and frequency depend on the product, purpose,
+and professional instructions.
+
+Dosage Form
+
+Medicines are available in different dosage forms. Common forms
+include tablets, capsules, syrups, creams, ointments, injections,
+and inhalers. Each form may have specific administration
+requirements.
+
+A tablet should not automatically be treated as equivalent to a
+liquid or an extended-release formulation. Some products have
+special release characteristics or handling instructions.
+Users should follow the approved product information and seek
+professional guidance when they have questions.
+
+Frequency and Duration
+
+Frequency describes how often a medicine is used. Duration
+describes how long the treatment is continued. These instructions
+depend on the medicine, its purpose, and the patient's clinical
+circumstances.
+
+Users should not independently increase the frequency, extend
+the treatment period, or change the dose because of a search
+result. If an instruction is unclear, the user should consult a
+pharmacist or healthcare professional.
+
+Routes of Administration
+
+The route of administration identifies how a medicine enters
+the body or is applied. Examples include oral, topical,
+inhaled, and injectable routes. Different routes can result in
+different effects and administration requirements.
+
+A medicine intended for one route should not automatically be
+used through another route. Product-specific instructions and
+professional guidance are important for safe administration.
+
+Storage and Handling
+
+Some medicines require specific storage conditions. Information
+may include temperature requirements, protection from light,
+moisture precautions, or special handling instructions.
+
+Storage requirements depend on the product. Users should follow
+the original label and official product information rather
+than relying on general assumptions.
+
+Missed Doses and Safety
+
+Questions about missed doses, side effects, medicine
+interactions, allergies, or dosage changes should be discussed
+with an appropriate healthcare professional. The correct action
+may depend on the medicine, the prescribed schedule, and the
+patient's circumstances.
+
+The Pharma Search application does not calculate personalized
+dosage recommendations or decide whether a user should take a
+particular medicine.
+
+Role in the Project
+
+The dosage_information.txt file stores general dosage-related
+terminology and educational information. It is read by the
+Java program along with the other 10 text files.
+
+The search system extracts words, converts them to lowercase,
+and calculates Levenshtein Edit Distance between the entered
+search word and the extracted words. It applies a simple
+threshold and sorts possible matches.
+
+For example, a user may search for a word such as dosage,
+strength, frequency, or administration. The system can identify
+close textual matches, including some spelling variations.
+
+Project Limitations
+
+The file is intended for demonstrating Java file handling and
+approximate text search. It does not replace medicine labels,
+prescriptions, clinical guidelines, or professional advice.
+
+Actual dosage decisions require reliable, product-specific
+information and appropriate clinical assessment.

@@ -1,0 +1,15 @@
+DRUG INTERACTIONS INFORMATION
+
+A drug interaction occurs when one medicine, food, supplement, or health condition changes the effect of another medicine. Interactions may increase side effects, reduce effectiveness, or create a new health risk. The Pharma Search – Intelligent Medicine Search System can store drug-interaction terms in a text file and retrieve them using approximate text matching.
+
+Drug interactions may be classified into medicine–medicine, medicine–food, medicine–supplement, and medicine–disease interactions. Medicine–medicine interactions occur when two or more medicines affect each other. Medicine–food interactions occur when a food or beverage changes absorption or metabolism. Medicine–supplement interactions may happen with herbal products, vitamins, or minerals. Medicine–disease interactions occur when a medicine is unsuitable for a person with a particular condition.
+
+Examples of interaction-related keywords include bleeding risk, drowsiness, blood pressure, blood sugar, sedation, absorption, metabolism, and allergic reaction. These words can be stored along with descriptions and medicine names. The file should not be treated as a complete clinical database because interactions depend on the exact medicine, dose, patient condition, and other factors.
+
+A useful record structure may include medicine name, interacting substance, possible effect, warning level, and professional advice. For example, a record may explain that combining medicines with sedating effects can increase drowsiness. Another record may describe how some medicines can change blood sugar levels or affect blood pressure.
+
+The approximate search component is useful when a user enters a misspelled term such as “interacion” instead of “interaction.” The Levenshtein Edit Distance algorithm compares the input word with words extracted from the file. It calculates the minimum number of insertions, deletions, and substitutions needed to transform one word into another. The search program can then display the closest matching terms.
+
+The project should clearly distinguish information retrieval from medical decision-making. The program should not automatically approve or reject a medicine combination. It should only display stored information and encourage users to consult a pharmacist or doctor for confirmation. Interaction information must be verified through trustworthy medical sources before practical use.
+
+This file improves the project by adding a more advanced medical vocabulary category. It also demonstrates why approximate matching is useful in healthcare search systems. Users may not remember exact spelling, especially for long medicine names or technical terms. A typo-tolerant search system can help users locate relevant text more easily, but accuracy, source quality, and regular updates remain essential.

@@ -1,0 +1,113 @@
+
+MEDICINE CATEGORIES
+
+Introduction to Medicine Categories
+
+Medicine categories are used to organize medicines according to
+their therapeutic purpose, active ingredients, pharmacological
+characteristics, or intended clinical applications. Organizing
+medicine information into categories makes it easier to manage
+records, search for terminology, and understand the general
+purpose of different products.
+
+A single medicine may be associated with more than one
+classification depending on its active ingredient, approved
+uses, and formulation. A category provides general information
+and should not be used by itself to determine whether a medicine
+is appropriate for a particular patient.
+
+Pain Relief Medicines
+
+Pain relief medicines are associated with the management of
+different types of pain. Products in this broad group may
+contain different active ingredients and may have different
+warnings and safety requirements. The cause, severity, and
+duration of pain can affect the appropriate approach to
+treatment.
+
+A medicine information system may store terms such as pain,
+analgesic, inflammation, tablet, and active ingredient. These
+terms can help demonstrate how the search program identifies
+words from a category-related text file.
+
+Antibiotics
+
+Antibiotics are medicines used to treat certain bacterial
+infections. They are not effective against viral infections
+such as most common colds. The selection of an antibiotic
+depends on the infection, patient-specific factors, and
+appropriate professional assessment.
+
+Incorrect or unnecessary antibiotic use can contribute to
+antimicrobial resistance. Therefore, information about an
+antibiotic should be interpreted carefully. A search result
+containing an antibiotic-related word does not establish that
+the medicine is needed or suitable for a user.
+
+Antacids and Digestive Medicines
+
+Antacids and other digestive medicines are associated with the
+management of selected digestive symptoms and conditions.
+Different products can work in different ways and may contain
+different ingredients. Product instructions and professional
+guidance should be followed.
+
+Common searchable terms may include acidity, stomach, digestive,
+antacid, tablet, liquid, and ingredient. These terms are useful
+for demonstrating approximate text matching in the project.
+
+Antihistamines
+
+Antihistamines are medicines commonly associated with the
+management of allergic symptoms. Different antihistamines can
+have different effects and precautions. Some products may cause
+drowsiness, while others have different side-effect profiles.
+
+A medicine category file can include words such as allergy,
+antihistamine, itching, reaction, and symptoms. The search system
+can compare these words with a user's entered search term.
+
+Antidiabetic Medicines
+
+Antidiabetic medicines are used in the management of diabetes.
+The treatment approach depends on the type of diabetes and
+individual clinical circumstances. Medicines can have different
+mechanisms of action, administration instructions, and
+monitoring requirements.
+
+Searchable terms may include glucose, diabetes, insulin,
+monitoring, and treatment. The system only identifies words
+that appear in its text files and does not calculate or recommend
+a treatment plan.
+
+Antihypertensive Medicines
+
+Antihypertensive medicines are used to manage high blood
+pressure. Different medicines act through different mechanisms,
+and treatment decisions require appropriate medical evaluation.
+The dosage and choice of medicine should not be changed without
+professional guidance.
+
+Other Categories
+
+Additional medicine categories include antifungal medicines,
+antiviral medicines, respiratory medicines, dermatological
+preparations, and nutritional products. Each category may
+contain products with different purposes and safety
+considerations.
+
+Role in Pharma Search
+
+The medicine categories file is used as a searchable text
+resource in the Pharma Search application. The program reads
+the file, extracts individual words, converts them to lowercase,
+and compares them with the user's search word using Levenshtein
+Edit Distance.
+
+The system applies a threshold and displays a limited number
+of close matches. This demonstrates how approximate searching
+can support text retrieval.
+
+Medicine categories are intended for educational organization
+in this project. They do not replace approved product
+information or professional medical advice.
