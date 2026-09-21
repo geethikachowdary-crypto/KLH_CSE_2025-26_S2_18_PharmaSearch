@@ -1,0 +1,119 @@
+
+SUBSTITUTES
+
+Introduction to Medicine Substitutes
+
+Medicine substitution refers to replacing one medicine product
+with another product under appropriate professional guidance.
+The alternative may contain the same active ingredient, a
+different active ingredient, or a different formulation.
+Whether substitution is suitable depends on the medicine,
+its approved use, patient-specific factors, and applicable
+professional and regulatory requirements.
+
+A medicine with a similar name or therapeutic category is not
+automatically a safe substitute. Products can differ in
+strength, dosage form, route of administration, inactive
+ingredients, release characteristics, and approved indications.
+
+Active Ingredients
+
+The active ingredient is an important factor when comparing
+medicine products. Two products may contain the same active
+ingredient but differ in strength, formulation, manufacturer,
+or other characteristics.
+
+The presence of the same active ingredient does not by itself
+establish that the products can be substituted in every
+situation. A qualified pharmacist or healthcare professional
+should assess the relevant product information.
+
+Generic Medicines
+
+Generic medicines may contain the same active ingredient as a
+corresponding reference product and must meet applicable
+quality and regulatory requirements. The conditions for
+interchangeability and substitution depend on the product and
+jurisdiction.
+
+Generic products may have differences in appearance,
+packaging, inactive ingredients, and other characteristics.
+These differences should be considered when evaluating a
+particular product.
+
+Therapeutic Alternatives
+
+Some alternatives may be used for a similar therapeutic
+purpose but contain a different active ingredient. Such
+alternatives are not automatically interchangeable.
+
+The choice of an alternative can depend on the diagnosis,
+patient's health condition, allergies, other medicines,
+contraindications, and professional assessment. A search
+system cannot determine clinical suitability from word
+similarity alone.
+
+Formulation and Strength
+
+A medicine's formulation and strength are important when
+comparing products. Tablets, capsules, liquids, creams, and
+injections may have different administration requirements.
+
+Some products have special release characteristics, such as
+extended-release formulations. Changing between formulations
+may require professional review. A product with a similar name
+may still have different instructions or precautions.
+
+Allergies and Interactions
+
+Allergies and medicine interactions are important safety
+considerations when evaluating a possible alternative.
+Inactive ingredients may also be relevant for some individuals.
+
+A person should not stop a prescribed medicine or begin a
+replacement solely because a text search identifies a similar
+word. Questions about alternatives should be discussed with a
+qualified healthcare professional.
+
+Substitutes in Pharma Search
+
+The substitutes.txt file contains general information and
+terminology related to medicine alternatives. It is one of
+the searchable resources used by the Java-based Pharma Search
+project.
+
+The program reads the file and extracts individual words.
+It converts the words to lowercase and calculates the
+Levenshtein Edit Distance between the user's search term and
+each extracted word.
+
+For example, a user may enter a misspelled term such as
+"subtitute" instead of "substitute." The program can compare
+the entered word with the words in the text files and display
+possible matches when the distance is within the threshold.
+
+The results include the matching word, Edit Distance, and
+filename. The program does not recommend a medicine or
+confirm therapeutic equivalence.
+
+Data Organization
+
+The substitutes file can contain terminology such as
+alternative, generic, ingredient, formulation, strength,
+equivalence, and pharmacist. These terms help demonstrate
+search functionality and text processing.
+
+The application uses a file-based approach instead of a
+database. Each text file is stored in the same project folder,
+and the Java program accesses the files using relative paths.
+
+Project Limitations
+
+The project is designed for educational purposes. It
+demonstrates file handling, word extraction, case-insensitive
+comparison, Dynamic Programming, and approximate search.
+
+It does not verify product authenticity, establish clinical
+equivalence, or provide personalized medical recommendations.
+Users should rely on appropriate professional guidance and
+reliable medicine information for real substitution decisions.

@@ -1,0 +1,17 @@
+MEDICINE STORAGE INFORMATION
+
+Medicine storage information explains the environmental conditions required to maintain the quality, safety, and effectiveness of a medicine. Important storage factors include temperature, humidity, light, container type, cleanliness, and expiry date. In the Pharma Search – Intelligent Medicine Search System, storage information can be maintained in a text file and searched using approximate word matching.
+
+Many medicines are stored at room temperature in a cool and dry location. Some products may require refrigeration, while others must be protected from freezing. Certain medicines are sensitive to direct sunlight, excessive heat, or moisture. The exact storage requirement depends on the product label and manufacturer instructions. A medicine should never be stored based only on a general assumption.
+
+Common storage-related keywords include room temperature, refrigeration, freezing, moisture, sunlight, humidity, container, expiry date, and child safety. The file can contain the medicine name, storage condition, protection requirement, and handling instructions. These details make the file useful for information retrieval and text-search demonstrations.
+
+Medicines should normally remain in their original, properly labelled containers. Transferring tablets, liquids, or other products into unlabelled containers may cause confusion. Medicines should be kept away from children and pets. They should not be stored near sinks, stoves, windows with direct sunlight, or other places with high heat or moisture unless the product instructions specifically allow it.
+
+Expiry dates are also important. Expired, damaged, discoloured, or contaminated medicines should not be used without professional guidance. Liquid medicines may have special instructions after opening, and some products may require disposal after a specified period. Users should follow the label, pharmacist instructions, and local disposal rules.
+
+The Levenshtein Edit Distance algorithm can help users find storage-related words even when spelling mistakes occur. For example, an input such as “refridgeration” can be compared with “refrigeration.” The algorithm calculates the minimum edit operations between the two words. If the distance is within the threshold, the system displays the correct stored word as a possible match.
+
+The application should present storage information as educational content rather than as a replacement for product-specific instructions. The same medicine name may have different formulations, and storage requirements can differ between tablets, syrups, injections, creams, and other forms.
+
+This file adds a practical safety category to the project. It also demonstrates how a simple file-based search engine can organize information that contains technical vocabulary. The content should be reviewed regularly because manufacturers may update storage instructions, packaging, or product formulations.
